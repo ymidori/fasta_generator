@@ -1,0 +1,9 @@
+version: "3.8"
+services:
+  dev:
+    image: ymidori/fasta_transfomer:dev
+    volumes:
+      - .:/opt/fasta_transfomer:rw
+    tty:
+      true
+    working_dir: "/opt/fasta_transfomer"
