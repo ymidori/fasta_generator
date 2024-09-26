@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "fasta_transformer"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+
+[tool.poetry.dependencies]
+python = "3.8.6"
+Django = "^3.2.9"
+django-bootstrap4 = "^3.0.1"
+black = "^21.10b0"
+ptpython = "^3.0.20"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["setuptools", "poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.black]
+line-length = 79
